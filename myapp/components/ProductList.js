@@ -5,7 +5,8 @@ import ProductItem from './ProductItem';
 const ProductList = () => {
   return (
     <div className="container mx-auto mt-8">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 bg-gray">
+        <h2 className='text-center mt-8 mb-8 text-2xl text-gray-400'>All Products</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 bg-gray">
         <ProductItem />
 
         <ProductItem />
