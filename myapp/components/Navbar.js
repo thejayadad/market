@@ -21,7 +21,7 @@ const Navbar = () => {
     };
   }, []);
 
-  const navbarClasses = `navbar bg-base-100 ${isSticky ? 'fixed top-0 left-0 w-full shadow-md' : ''}`;
+  const navbarClasses = `navbar bg-base-100 ${isSticky ? 'fixed top-0 left-0 w-full shadow-md z-[100]' : ''}`;
 
   return (
     <header>

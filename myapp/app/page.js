@@ -1,5 +1,6 @@
 import Hero from '@/components/Hero'
 import ProductItem from '@/components/ProductItem'
+import ProductList from '@/components/ProductList'
 import Image from 'next/image'
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
     <main>
       <Hero />
       homePage
-      <ProductItem />
+      <ProductList />
     </main>
   )
 }

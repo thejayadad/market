@@ -1,10 +1,9 @@
 'use client'
-
 import React from 'react';
 
 const ProductItem = () => {
   return (
-    <div className="border shadow-lg bg-white p-2">
+    <div className="border shadow-lg bg-white p-2 transform hover:translate-y-[-4px] transition-transform duration-300">
       <img
         src="https://images.pexels.com/photos/695266/pexels-photo-695266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         alt="Product Name"
