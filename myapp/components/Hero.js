@@ -5,7 +5,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <section>
-        <section className="bg-gradient-to-b from-gray-400 via-gray-600 to-gray-800 py-16 text-white">
+        <section className="py-16 text-gray-700">
   <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-y-0 lg:space-x-12">
     <div className="w-full lg:w-1/2">
       <img
