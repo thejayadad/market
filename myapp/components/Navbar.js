@@ -27,7 +27,7 @@ const Navbar = () => {
     <header>
       <div className={navbarClasses}>
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl">TraditionalGames</a>
+          <a className="btn btn-ghost normal-case text-xl">Wonderland Games</a>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
